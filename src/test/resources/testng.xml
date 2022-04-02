@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="Test Fortesza" >
+        <parameter name="browserName" value="chrome" />
+        <parameter name="url" value="https://staging.fortesza.com" />
+        <classes>
+            <class  name="Tests.Register.RegisterTest"/>
+
+        </classes>
+    </test>
+</suite>
